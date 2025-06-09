@@ -33,7 +33,7 @@ npm install
 npx expo start
 ````
 📂 Folder Structure
-
+````
 src/
 ├── components/      # Reusable UI components (buttons, inputs, modals, etc.)
 ├── constants/       # App-wide constants and configuration values
@@ -47,7 +47,7 @@ src/
 ├── utils/           # Utility functions and helpers
 ├── types/           # TypeScript type definitions and interfaces
 App.tsx               # App entry point (outside of src folder)
-
+````
 
 🧩 Database
 The app uses Supabase with the following tables:
