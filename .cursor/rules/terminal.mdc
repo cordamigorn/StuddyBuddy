@@ -1,0 +1,26 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+- Herhangi bi komut çalıştırırken windows powershell e uygun şekilde komutu çalıştır.
+- Komut çalıştırırken "&&" ifadesini kullanma.
+
+---
+
+Trigger:
+- Kullanıcı, senin ürettiğin bir kodu onaylayıp "tamam süper" cümlesiyle başlayan bir komut yazdığında tetiklenecek.
+
+Action:
+1. @PHASES.md dosyasını aç.
+2. Dosya içerisinde "## Yapıldı" başlığını bul.
+3. En son onaylanan (kullanıcının "tamam süper" dediği) çıktının özet bilgisini bu bölümde arat.
+4. Eğer bu çıktı "## Yapıldı" listesinde yoksa, listenin en altına ekle.
+5. Eğer zaten varsa, herhangi bir ekleme yapma.
+
+Context:
+- Bu rule, yalnızca kullanıcı "tamam süper" cümlesiyle başladığında çalışır.
+- Bu rule, projede geliştirilen yeni özelliklerin @PHASES.md dosyasında güncellenmesi içindir.
+
+---
