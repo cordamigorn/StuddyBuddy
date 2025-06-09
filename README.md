@@ -1,26 +1,26 @@
 🧠 StuddyBuddy – Pomodoro Timer App
-StuddyBuddy is a mobile timer app designed to help users boost focus using the Pomodoro technique.
-Users can manage tasks, customize work/break durations, and track their performance with detailed statistics.
+- StuddyBuddy is a mobile timer app designed to help users boost focus using the Pomodoro technique.
+- Users can manage tasks, customize work/break durations, and track their performance with detailed statistics.
 
 🚀 Features
-⏱️ Pomodoro Timer (default 25-5 cycle, customizable)
-✅ Task Management (priority, completion, estimated pomodoros)
-📊 Statistics (daily/weekly progress graphs)
-👤 User Profile and Settings
-🔐 Authentication (via Supabase)
+- ⏱️ Pomodoro Timer (default 25-5 cycle, customizable)
+- ✅ Task Management (priority, completion, estimated pomodoros)
+- 📊 Statistics (daily/weekly progress graphs)
+- 👤 User Profile and Settings
+- 🔐 Authentication (via Supabase)
 
 🛠️ Tech Stack
-Frontend: React Native (Expo), TypeScript
-Backend: Supabase (Auth, DB, API)
-Data Storage: Supabase database
+- Frontend: React Native (Expo), TypeScript
+- Backend: Supabase (Auth, DB, API)
+- Data Storage: Supabase database
 
 🧪 Setup and Running
 ⚠️ .env file is excluded from the repo for security.
 
 - Clone the repo
 
-git clone https://github.com/cordamigorn/StuddyBuddy.git
-cd StuddyBuddy
+'''git clone https://github.com/cordamigorn/StuddyBuddy.git
+cd StuddyBuddy'''
 
 - Install dependencies
 npm install
