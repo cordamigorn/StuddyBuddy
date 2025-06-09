@@ -18,19 +18,20 @@
 ⚠️ .env file is excluded from the repo for security.
 
 - Clone the repo
-
-'''git clone https://github.com/cordamigorn/StuddyBuddy.git
-cd StuddyBuddy'''
-
+````
+git clone https://github.com/cordamigorn/StuddyBuddy.git
+cd StuddyBuddy
+````
 - Install dependencies
+````
 npm install
-
+````
 - Create a .env file and add your Supabase credentials
 
 - Start the project
-
+````
 npx expo start
-
+````
 📂 Folder Structure
 
 src/
